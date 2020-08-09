@@ -1,0 +1,10 @@
+
+.canvasDiv {
+    display: inline-block;
+    float:left
+}
+.toolsDiv {
+    display: inline-block;
+    background-color: #303030;
+    float: right;
+}

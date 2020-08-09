@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1-transitional.dtd">
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styleSheet.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+        <script src="automaticswitching.js"></script>
+		<script src="nodes.js"></script>
+		<script src="connections.js"></script>
+		<script src="source.js"></script>
+		<script src="autoRestore.js"></script>
+		<script src="loadBalancing.js"></script>
+		<title>Automatic Switching</title>
+	</head>
+	<body>
+		<div id='canvasDiv' class='canvasDiv'></div>
+		<div id='toolsDiv' class='toolsDiv'>
+			<button id='addNodesButton' class='button' onclick='addNodesButton()'>ADD NODES</button></br>
+			<button id='deleteNodesButton' class='button' onclick='deleteNodesButton()'>DELETE NODES</button></br>
+			<button id='joinNodesButton' class='button' onclick='joinNodesButton()'>JOIN NODES</button></br>
+			<button id='toggleConnectionsButton' class='button' onclick='toggleConnectionsButton()'>TOGGLE CONNECTIONS</button></br>
+			<button id='runButton' class='button' onclick='runButton()'>RUN</button></br>
+		</div>
+	</body>
+</html>
